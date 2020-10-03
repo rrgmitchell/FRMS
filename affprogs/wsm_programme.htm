@@ -1,0 +1,144 @@
+<html><!-- #BeginTemplate "/Templates/wsm.dwt" -->
+<head>
+<!-- #BeginEditable "doctitle" --> 
+<title>Weston Super Mare Programme</title>
+<!-- #EndEditable -->
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.0
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && document.getElementById) x=document.getElementById(n); return x;
+}
+
+function MM_nbGroup(event, grpName) { //v3.0
+  var i,img,nbArr,args=MM_nbGroup.arguments;
+  if (event == "init" && args.length > 2) {
+    if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+      img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+      if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+      nbArr[nbArr.length] = img;
+      for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+        if (!img.MM_up) img.MM_up = img.src;
+        img.src = img.MM_dn = args[i+1];
+        nbArr[nbArr.length] = img;
+    } }
+  } else if (event == "over") {
+    document.MM_nbOver = nbArr = new Array();
+    for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = (img.MM_dn && args[i+2]) ? args[i+2] : args[i+1];
+      nbArr[nbArr.length] = img;
+    }
+  } else if (event == "out" ) {
+    for (i=0; i < document.MM_nbOver.length; i++) {
+      img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+  } else if (event == "down") {
+    if ((nbArr = document[grpName]) != null)
+      for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+    document[grpName] = nbArr = new Array();
+    for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = img.MM_dn = args[i+1];
+      nbArr[nbArr.length] = img;
+  } }
+}
+//-->
+</script>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" onLoad="MM_preloadImages('../images/weston%20images/weston_home_down.png','../images/weston%20images/weston_programme_down.png','../images/weston%20images/weston_fees_down.png','../images/weston%20images/weston_contact_down.png','../images/weston%20images/weston_history_down.png')">
+<div align="center"><!-- #BeginEditable "top-banner" --> 
+  <div align="center"><font face="Arial, Helvetica, sans-serif" size="+2"><b><font color="#FF0000">Weston-Super-Mare 
+    Music Appreciation Society</font> - Programme</b></font> </div>
+  <p align="center"></p>
+  <!-- #EndEditable --><br>
+  <!-- #BeginEditable "top" --> 
+  <p><img src="../images/weston%20images/weston_music_logo.png" width="198" height="77"></p>
+  <!-- #EndEditable --></div>
+<table border="0" cellpadding="0" cellspacing="0" align="center">
+  <tr> 
+    <td><a href="wsm_home.htm" target="westonMain" onClick="MM_nbGroup('down','group1','home','../images/weston%20images/weston_home_down.png',1)" onMouseOver="MM_nbGroup('over','home','../images/weston%20images/weston_home_down.png','',1)" onMouseOut="MM_nbGroup('out')"><img name="home" src="../images/weston%20images/weston_home.png" border="0" onLoad="" width="151" height="20"></a></td>
+    <td><a href="wsm_programme.htm" target="westonMain" onClick="MM_nbGroup('down','group1','programme','../images/weston%20images/weston_programme_down.png',1)" onMouseOver="MM_nbGroup('over','programme','../images/weston%20images/weston_programme_down.png','',1)" onMouseOut="MM_nbGroup('out')"><img name="programme" src="../images/weston%20images/weston_programme.png" border="0" onLoad="" width="168" height="20"></a></td>
+    <td><a href="wsm_fees.htm" target="westonMain" onClick="MM_nbGroup('down','group1','fees','../images/weston%20images/weston_fees_down.png',1)" onMouseOver="MM_nbGroup('over','fees','../images/weston%20images/weston_fees_down.png','',1)" onMouseOut="MM_nbGroup('out')"><img name="fees" src="../images/weston%20images/weston_fees.png" border="0" onLoad="" width="123" height="20"></a></td>
+    <td><a href="wsm_contact.htm" target="westonMain" onClick="MM_nbGroup('down','group1','contact','../images/weston%20images/weston_contact_down.png',1)" onMouseOver="MM_nbGroup('over','contact','../images/weston%20images/weston_contact_down.png','',1)" onMouseOut="MM_nbGroup('out')"><img name="contact" src="../images/weston%20images/weston_contact.png" border="0" onLoad="" width="134" height="20"></a></td>
+    <td><a href="wsm_history.htm" target="westonMain" onClick="MM_nbGroup('down','group1','history','../images/weston%20images/weston_history_down.png',1)" onMouseOver="MM_nbGroup('over','history','../images/weston%20images/weston_history_down.png','',1)" onMouseOut="MM_nbGroup('out')"><img name="history" src="../images/weston%20images/weston_history.png" border="0" onLoad="" width="148" height="20"></a></td>
+  </tr>
+</table>
+<!-- #BeginEditable "the-middle" --> 
+<p>&nbsp;</p>
+<table width="75%" border="0" align="center">
+  <tr> 
+    <td height="410" width="11%" rowspan="5">&nbsp;</td>
+    <td height="126" valign="top"><font face="Arial, Helvetica, sans-serif" size="+1" color="#FFFFFF"><b><font color="000000"><i>Our 
+      41st Season was due to start on April 15th 2020. However, it has been decided 
+      to POSTPONE the programme until further notice because of the current situation 
+      with regards to Coronavirus.</i></font></b></font> 
+      <p>&nbsp;</p>
+      <p> 
+    </td>
+    <td height="410" width="10%" rowspan="5">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td height="138" valign="top"><br>
+      <b><font face="Arial, Helvetica, sans-serif" color="000000">We normally 
+      meet on Wednesday evenings twice a month from April &#150; September with 
+      additional social events both during and outside our normal season. However, 
+      the society will not be arranging any events for the time being. During 
+      this period, members will receive regular updates.</font></b><font face="Arial, Helvetica, sans-serif"></font><font face="Arial, Helvetica, sans-serif"><br>
+      </font></td>
+  </tr>
+  <tr> 
+    <td height="96" valign="top"> 
+      <p><font face="Arial, Helvetica, sans-serif"><i></i></font></p>
+      <p><font face="Arial, Helvetica, sans-serif" color="000000"><b>Updates and 
+        general information regarding the society are available from:</b></font><font face="Arial, Helvetica, sans-serif"> 
+        <a href="wsm_contact.htm">Contact</a></font></p>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+    </td>
+  </tr>
+</table>
+<!-- #EndEditable -->
+<p><br>
+</p>
+<table cellspacing="0" cellpadding="0" align="Center" width="658">
+  <tr> 
+    <td valign="Middle"> 
+      <p align=Center> <font color="#0000ff"><i><font face="Geneva, Arial, Helvetica, san-serif" size="2" color="#990000"><a href="../index.htm">Return 
+        to...</a></font></i></font><br>
+        &nbsp; &nbsp;<a href="../index.htm"> <img width="151" height="111" align="Middle" src="../images/FRMSlatestsmall.gif" border="0"></a><br>
+        <i><font color="#0000ff"> <a href="../index.htm"><font face="Geneva, Arial, Helvetica, san-serif" size="2" color="#990000">...Home 
+        Page</font></a></font> <a href="../index%20old.htm"><font face="Geneva, Arial, Helvetica, san-serif" size="2" color="#990000">&nbsp;</font></a></i> 
+    </td>
+    <td> 
+      <h1>&nbsp; </h1>
+    </td>
+    <td> 
+      <p align=Center> <b><font face="Geneva, Arial, Helvetica, san-serif" size="3" color="#000099">We 
+        are affiliated to the<br>
+        &nbsp; <font color="#990000">Federation of Recorded&nbsp;Music Societies 
+        &nbsp;&nbsp;</font><br>
+        </font></b><font face="Geneva, Arial, Helvetica, san-serif" size="3" color="#000099"> 
+        <i><font size="2" color="#990000">(President - Julian Lloyd Webber)</font></i></font><b><font face="Geneva, Arial, Helvetica, san-serif" size="3" color="#000099"><br>
+        which has pages on the Web and supports all <br>
+        Societies throughout the UK </font></b> </p>
+    </td>
+  </tr>
+</table>
+<p><br>
+  <i><i><i></i></i></i> </p>
+<p>&nbsp; </p>
+</body>
+<!-- #EndTemplate --></html>
