@@ -3,4 +3,5 @@
 <mm:style name="NewsHeading" format="p" align="center" apply="replace" font="Geneva, Arial, Helvetica, san-serif" size="5" color="#990000" bold />
 <mm:style name="Red Link" align="center" apply="replace" font="Geneva, Arial, Helvetica, san-serif" size="3" color="#990000" bold />
 <mm:style name="Red Link Size 6" format="p" align="center" apply="replace" font="Geneva, Arial, Helvetica, san-serif" size="6" color="#990000" bold />
+<mm:style name="Red Text Size 5" format="p" align="center" apply="replace" font="Geneva, Arial, Helvetica, san-serif" size="5" color="#990000" bold />
 <mm:style name="WestonText" type="char" apply="replace" font="Arial, Helvetica, sans-serif" size="+1" color="000000" bold />
