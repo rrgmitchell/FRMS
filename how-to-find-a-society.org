@@ -22,10 +22,10 @@ Backpool and Fylde
 Bury and District
 Classical Video Group
 CLPGS Northern Region Group
-Maghull
+> Maghull
 Morecambe and Heysham
 Nelson
-Preston
+> Preston
 Ramsbottom
 Rochdale
 Southport
@@ -43,7 +43,7 @@ Sheffield
 York Classical CD Club
 
 * East Midlands
-Jubilee Music Circle (Derby)
+> Jubilee Music Circle (Derby)
 Hinckley
 Leicester
 Loughborough
@@ -85,7 +85,7 @@ Carshalton and Wallington
 Chichester
 Durington
 Eastbourne
-Goudhurst
+> Goudhurst
 Guildford
 Haslemere
 Herne Bay
@@ -124,6 +124,6 @@ Weymouth
 Cardiff
 Cheltenham	
 Illminster	
-Cirencester
+> Cirencester
 U3A Bristol	
 Dartmouth
