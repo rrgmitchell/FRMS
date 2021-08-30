@@ -61,7 +61,7 @@ Stoke on Trent
 Stone
 Newcastle (Staffs)
 Olton (Birmingham)
-Sutton Coldfield (Boldmere)
+> Sutton Coldfield (Boldmere)
 Oswestry
 Wolverhampton
 Kempsey
