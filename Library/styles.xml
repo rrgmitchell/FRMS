@@ -1,5 +1,6 @@
 <mm:style name="Blue Text" type="char" apply="replace" font="Geneva, Arial, Helvetica, san-serif" size="2" color="#000099" bold />
 <mm:style name="FRMS Events" format="p" align="center" apply="replace" font="Geneva, Arial, Helvetica, san-serif" size="6" color="#990000" bold />
+<mm:style name="Geneva" type="char" apply="replace" font="Geneva, Arial, Helvetica, san-serif" size="3" bold />
 <mm:style name="NewsHeading" format="p" align="center" apply="replace" font="Geneva, Arial, Helvetica, san-serif" size="5" color="#990000" bold />
 <mm:style name="Red Link" align="center" apply="replace" font="Geneva, Arial, Helvetica, san-serif" size="3" color="#990000" bold />
 <mm:style name="Red Link Size 6" format="p" align="center" apply="replace" font="Geneva, Arial, Helvetica, san-serif" size="6" color="#990000" bold />
