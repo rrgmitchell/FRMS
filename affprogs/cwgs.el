@@ -1,5 +1,5 @@
 ;; Helper functions to insert a new table into cwgs.htm
-;; 12/01/2023
+;; 12/01/2023 - 04/03/2024
 
 (defun insert-td (width colour text)
   (insert "      <td width=\"" width "\"> 
@@ -20,33 +20,18 @@
 (defun insert-table ()
   (interactive)
 
-  (insert-row "2023" "" "")
-
-  (insert-row "Sept 8" "Have microphone will travel" "Christopher Town*")
-
-  (insert-row "Sept 22" "Members’ choices" "")
-
-  (insert-row "Oct 13" "An interesting independent label - Alpha Classics" "David Coronel*")
-
-  (insert-row "Oct 20" "Spanish music from the time of Manuel da Falla" "Ray Picot*")
-
-  (insert-row "Nov 10" "Defusing the red light" "Andrew Keener*")
-
-  (insert-row "Nov 17" "Proms highlights" "Committee members")
-
-  (insert-row "Dec 8" "Franz Schubert, ’The most poetic musician" "Tony Goring")
-
-  (insert-row "Dec 15" "Christmas function" "")
-
   (insert-row "2024" "" "")
-
-  (insert-row "Jan 12" "A tale of several cities" "Rosemary Howard")
-
-  (insert-row "Jan 26" "The musical fairer sex" "Pauline Pridham")
-
-  (insert-row "Feb 9" "Excuse my French" "Tom Shiels")
-
-  (insert-row "Feb 23" "Adaptations and arrangements" "Eric Pridham")
+  (insert-row "March 8" "My most recent projects" "Mike Purton*")
+  (insert-row "March 22" "Members’ choices" "")
+  (insert-row "April 5" "Chalk and cheese" "John Evans")
+  (insert-row "April 19" "Turning the pages" "Peter Avis*")
+  (insert-row "May 3 " "Transport of delight" "Paul Whittle")
+  (insert-row "May 17" "My 100 best tunes (a few of them)" "John Wagstaff")
+  (insert-row "May 31" "Edvard Grieg" "Robert Matthew Walker*")
+  (insert-row "June 14" "Annual General Meeting" "")
+  (insert-row "June 28" "The piano, but at times only in support" "Tony Mitchell")
+  (insert-row "August 9" "Il lavoro Italiano (the Italian job)" "David Duncan*")
+  (insert-row "August 23" "Daniel Barenboim, complete musician" "Andrew Mitchell*  ")
 
 
   )
