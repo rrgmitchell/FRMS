@@ -6,11 +6,76 @@
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="86400">
+
 <style type="text/css">
-  .newscolumn h1 { font-family: Times New Roman, Times, serif; font-size: 20px; font-style: oblique; font-weight: bold; color: #000099; text-align: center;}
-  .newscolumn h2 { font-family: Geneva, Arial, Helvetica, san-serif; font-size: 22px; font-style: normal; font-weight: bold; color: #990000; text-align: center;}
-  .newscolumn p,footer {  font-family: Geneva, Arial, Helvetica, san-serif; font-size: 13px; font-style: normal; font-weight: bold; color: #000099; text-align: justify;}
+  a:hover {color: #CC0000;}
+  .frmsinfo h1 {
+      font-family: Times New Roman, Times, serif;
+      font-size: 18px;
+      font-style: oblique;
+      font-weight: bold;
+      color: #000099;
+      text-align: center;}
+  .frmsinfo p {
+      text-align: center;
+      margin-top: 0;
+      font-weight: bold;
+      font-style: oblique;
+      color: #990000;}
+  
+  .middlecolumn p {
+      font-family: Geneva, Arial, Helvetica, san-serif;
+      font-size: 13px;
+      color: white;
+      text-align: justify;
+      padding: 5px;
+  }
+  .middlecolumn h1,h2 {
+      font-family: Geneva, Arial, Helvetica, san-serif;
+      font-size: 15px;
+      font-weight: bold;
+      color: white;
+      text-align: center;
+  }
+  .middlecolumn h1 {font-size: 18px;}
+  .middlecolumn footer p {
+      text-align: left;
+      font-family: Geneva, Arial, Helvetica, san-serif;
+      font-size: 13px;
+      font-style: oblique;
+      color: #990000; 
+  }
+  .newscolumn h1 {
+      font-family: Times New Roman, Times, serif;
+      font-size: 20px;
+      font-style: oblique;
+      font-weight: bold;
+      color: #000099;
+      text-align: center;
+  }
+  .newscolumn h2 {
+      font-family: Geneva, Arial, Helvetica, san-serif;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: bold;
+      color: #990000;
+      text-align: center;}
+  .newscolumn p,footer {
+      font-family: Geneva, Arial, Helvetica, san-serif;
+      font-size: 13px;
+      font-style: normal;
+      font-weight: bold;
+      color: #000099;
+      text-align: justify;
+  }
   footer {text-align: center}
+  /* Display a centred image */
+  .centimage {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+  }
 </style>
 
 </head>
@@ -19,7 +84,8 @@
 <table width="92%" border="3" cellspacing="5" cellpadding="5" align="center" bordercolor="#000000" bgcolor="#000000" height="206">
   <tr bgcolor="#99CCCC"> 
     <td height="192" width="24%" valign="top" bgcolor="#CCCCFF"> 
-      <div align="center"><img src="images/frmslatestsmall.gif" width="217" height="192"></div>
+      <div align="center"><img src="images/frmslatestsmall.gif" width="217" height="192"
+			       alt="the FRMS logo"></div>
     </td>
     <td height="192" width="76%" bgcolor="#FFFF33"> 
       <div align="center"><font face="Geneva, Arial, Helvetica, san-serif" size="3" color="#003300"><b><font color="#000000" size="6">Federation 
@@ -31,7 +97,8 @@
         Do you enjoy it more in the company of other like-minded people?<br>
         <font color="#990000">A Recorded Music Society</font> might be just the 
         thing for you!</font></b></font></p>
-      <p align="center"><img src="images/welcome.gif" width="165" height="40"> 
+      <p align="center"><img src="images/welcome.gif" width="165" height="40"
+			      alt="an animated welcome image"> 
         <b><font face="Geneva, Arial, Helvetica, san-serif" size="5" color="#990000">to 
         our Home Page</font></b></p>
     </td>
@@ -40,7 +107,7 @@
 <table width="92%" border="25" align="center" bgcolor="#FFFF00" cellpadding="20" cellspacing="20" bordercolor="#FF0000">
   <tr> 
     <td> 
-      <p align="center" class="newscolumn"><font face="Geneva, Arial, Helvetica, san-serif" size="5" color="#990000">The 
+      <p align="center"><font face="Geneva, Arial, Helvetica, san-serif" size="5" color="#990000">The 
         Federation has a <a href="committee/frmscomm.htm">new Chairman</a> !</font></p>
     </td>
   </tr>
@@ -49,94 +116,93 @@
 <table width="92%" border="0" cellspacing="5" cellpadding="5" align="center" bordercolor="#336600" bgcolor="#000033" height="901">
   <tr> 
     <!-- The First Column  -->
-    <td valign="top" width="26%" height="500" bgcolor="#99FFCC" rowspan="2"> 
-      <p align="center"><font face="Geneva, Arial, Helvetica, san-serif" size="2" color="#336600"><font color="#000000"><br>
-        <font color="#000099"><b><font face="Times New Roman, Times, serif" size="3"><i>FRMS 
-        ORGANISATION</i></font></b></font></font><i><font color="#990000" face="Times New Roman, Times, serif" size="3"><br>
-        </font></i></font><font face="Geneva, Arial, Helvetica, san-serif" size="2" color="#336600"><i><font color="#990000" face="Times New Roman, Times, serif" size="3"><b><a href="Geog%20project.htm">How 
-        to find a society</a><br>
-        <a href="affprogs/afflinks.htm">Society weblinks</a><br>
+    <td class="frmsinfo" valign="top" width="26%" height="500" bgcolor="#99FFCC" rowspan="2"> 
+      <h1>FRMS ORGANISATION</h1>
+      <p>
+        <a href="Geog%20project.htm">How to find a society</a><br>
+        <a href="affprogs/afflinks.htm">Society Weblinks</a><br>
         <a href="friends.htm">Friends of FRMS</a><br>
         <a href="committee/frmscomm.htm">FRMS Officers &amp; Committee</a><br>
-        <a href="policies.htm">FRMS Policies</a></b><a href="policies.htm"><br>
-        </a></font></i></font><i><font color="#000000"><br>
-        <b><font color="#000099">EVENTS</font></b></font><br>
-        <a href="frmsevents/frmsevents.htm"><b>FRMS Events</b></a><b><br>
-        <a href="otherevents/otherevents.htm">Other Events</a></b><a href="otherevents/otherevents.htm"><br>
-        </a><font color="#000000"><br>
-        <b><font color="#000099">FRMS SPECIALIST SERVICES</font></b></font><br>
-        <a href="techservices.htm"><b>Technical</b></a><b><br>
+        <a href="policies.htm">FRMS Policies</a><br>
+      </p>
+      <h1>EVENTS</h1>
+      <p>
+        <a href="frmsevents/frmsevents.htm">FRMS Events</a><br>
+        <a href="otherevents/otherevents.htm">Other Events</a><br>
+      </p>
+      <h1>FRMS SPECIALIST SERVICES</h1>
+      <p>
+        <a href="techservices.htm">Technical</a><br>
         <a href="copyright.htm">Copyright</a><br>
         <a href="pps-prs.htm">PRS/PPL</a><br>
         <a href="insurance/insurance%20intro.htm">Insurance </a><br>
-        <a href="Help%202019.pdf">Helpline</a></b><br>
-        <font color="#000000"><br>
-        <b><font color="#000099">FRMS BACKGROUND INFORMATION </font></b></font><br>
-        <a href="latesthistory.htm"><b>FRMS History</b></a><b><br>
-        </b><a href="stories%20from%20the%20societies/stories%20from%20the%20societies.htm"><b>Stories 
-        From The Societies</b></a><br>
-        <a href="pastbulletins/bulletin.htm"><b>FRMS Bulletins</b></a><br>
-        <a href="Newsletter/Newsletter%2028.pdf"><b>Latest Newsletter</b></a><br>
-        <a href="Newsletter/previous%20newsletters.htm"><b>Previous Newsletters</b></a><br>
-        <a href="Covid%20update%20August%202021.pdf"><b>Covid-19 Advice (2021)</b></a><br>
-        <a href="downloads%20and%20streaming.htm"><b>Downloads and Streaming</b></a></i><i><br>
-        <a href="Obituary/those_we_have_lost.htm"><b>In Memoriam</b></a><b><br>
-        <br>
-        </b></i></p>
-      <b> 
-      <p align="center"><i><font face="Times New Roman, Times, serif" size="3" color="#000000"><b><font color="#000099">EQUIPMENT 
-        SUPPORT</font></b></font><font face="Times New Roman, Times, serif" size="3"><b><font color="#000099"> 
-        </font></b><font color="#990000"><br>
-        <b>FRMS gratefully acknowledges support at its events from <br>
+        <a href="Help%202019.pdf">Helpline</a><br>
+      </p>
+      <h1>FRMS BACKGROUND INFORMATION</h1>
+      <p>
+        <a href="latesthistory.htm">FRMS History</a><br>
+        <a href="stories%20from%20the%20societies/stories%20from%20the%20societies.htm">
+	  Stories From The Societies</a><br>
+        <a href="pastbulletins/bulletin.htm">FRMS Bulletins<a><br>
+        <a href="Newsletter/Newsletter%2028.pdf">Latest Newsletter</a><br>
+        <a href="Newsletter/previous%20newsletters.htm">Previous Newsletters</a><br>
+        <a href="Covid%20update%20August%202021.pdf">Covid-19 Advice (2021</a><br>
+        <a href="downloads%20and%20streaming.htm">Downloads and Streaming</a><br>
+        <a href="Obituary/those_we_have_lost.htm">In Memoriam</a><br>
+      </p>
+       
+      <h1>EQUIPMENT SUPPORT</h1>
+      <p>
+        FRMS gratefully acknowledges support at its events from <br>
         <a href="http://www.cambridgeaudio.com">Cambridge Audio</a> and<br>
-        <a href="http://www.pmc-speakers.com/">PMC speakers</a></b></font></font></i></p>
-      <p align="center">&nbsp;</p>
-      <p align="center">&nbsp;</p>
-      <p align="center">&nbsp;</p>
-      </b></td>
+        <a href="http://www.pmc-speakers.com/">PMC speakers</a>
+      </p>
 
     <!-- The Second Column -->
-    <td valign="top" width="40%" height="400" bgcolor="#0099CC" rowspan="2"> 
-      <div align="center"> 
-        <p><a href="committee/julian.htm"><img src="images/Julian%20Lloyd%20Webber%203may18.jpg" width="216" height="324" border="0"></a>S</p>
-        <p><font face="Geneva, Arial, Helvetica, san-serif" size="4" color="#FFFFFF">Meet 
-          Julian Lloyd Webber OBE<br>
-          our President</font></p>
+    <td class="middlecolumn"; valign="top" width="40%" height="400" bgcolor="#0099CC" rowspan="2"> 
+      <div>
+        <p style="text-align: center;">
+	  <a href="committee/julian.htm">
+	    <img class="centimage" src="images/Julian%20Lloyd%20Webber%203may18.jpg"
+		  alt="a picture of Julian Lloyd Webber">
+	  </a>
+	</p>
+        <h1>Meet Julian Lloyd Webber OBE<br>
+          our President</h1>
         <hr>
         <br>
-        <div align="center"> 
-          <p><font face="Geneva, Arial, Helvetica, san-serif" size="2" color="#FFFFFF"><b>FRMS 
-            - WHO ARE WE?</b></font> </p>
-          <p align="left"><font face="Geneva, Arial, Helvetica, san-serif" size="2" color="#FFFFFF">The 
-            Federation of Recorded Music Societies (FRMS) can claim to have played 
-            its part in developing greater enthusiasm and understanding of recorded 
-            classical music over a substantial portion of the past century.</font></p>
-          <p align="left"><font face="Geneva, Arial, Helvetica, san-serif" size="2" color="#FFFFFF">The 
-            Federation was formed in 1936 as the National Federation of Gramophone 
-            Societies. Although the title has changed to reflect more recent developments, 
-            the aims of the movement have remained basically unaltered and the 
-            attraction is still present in the 21st century as well over 100 societies 
-            continue to meet on a regular basis.</font></p>
-          <p align="left"><font face="Geneva, Arial, Helvetica, san-serif" size="3" color="#FFFFFF"><i><font size="2"> 
-            <a href="whoarewe.htm">...more</a></font></i></font></p>
-        </div>
-        <p align="center"><font face="Geneva, Arial, Helvetica, san-serif" size="3" color="#FFFFFF"><b><font size="2">ADVANTAGES 
-          OF AFFILIATION TO THE FRMS</font></b></font></p>
-        <p align="left"><font face="Geneva, Arial, Helvetica, san-serif" size="2" color="#000099"><font size="3" color="#FFFFFF">Th<font size="2">e 
-          Federation was formed in 1936 as a voluntary association of societies 
-          in the British Isles for the purpose of protecting their interests and 
-          furthering their aims. Twenty-three Societies originally affiliated 
-          - now the number is well over 100. Our main function is to manage licensing 
-          arrangements with Performing Right Society Ltd (PRS) and Phonographic 
-          Performance Ltd (PPL) for the licences necessary for performing recorded 
-          music in public, on terms favourable to our members. The fees are greatly 
-          reduced from those normally applied by these organisations for individual 
-          licences. A particular benefit of this arrangement is that it is the 
-          society itself that is licensed and not the premises. This means that 
-          the society is covered for PRS and PPL wherever it chooses to meet.</font></font></font></p>
-        <p align="left"><font face="Geneva, Arial, Helvetica, san-serif" size="2" color="#FFFFFF"><font size="2"><a href="advantages.htm"><i>...more 
-          </i></a></font></font></p>
-      </div>
+        <h2>FRMS - WHO ARE WE?</h2>
+        <p>The Federation of Recorded Music Societies (FRMS) can claim to have played 
+          its part in developing greater enthusiasm and understanding of recorded 
+          classical music over a substantial portion of the past century.</p>
+        <p>The Federation was formed in 1936 as the National Federation of Gramophone 
+          Societies. Although the title has changed to reflect more recent developments, 
+          the aims of the movement have remained basically unaltered and the 
+          attraction is still present in the 21st century as over 100 societies 
+          continue to meet on a regular basis.</p>
+	<footer>
+	  <p>
+	    <a href="advantages.htm">...more</a>
+	  </p>
+	</footer>
+
+        <h2>ADVANTAGES OF AFFILIATION TO THE FRMS</h2>
+	<p> The Federation was formed in 1936 as a voluntary association of societies 
+        in the British Isles for the purpose of protecting their interests and 
+        furthering their aims. Twenty-three Societies originally affiliated 
+        - now the number is well over 100. Our main function is to manage licensing 
+        arrangements with Performing Right Society Ltd (PRS) and Phonographic 
+        Performance Ltd (PPL) for the licences necessary for performing recorded 
+        music in public, on terms favourable to our members. The fees are greatly 
+        reduced from those normally applied by these organisations for individual 
+        licences. A particular benefit of this arrangement is that it is the 
+        society itself that is licensed and not the premises. This means that 
+        the society is covered for PRS and PPL wherever it chooses to meet.</p>
+    <footer>
+      <p>
+	<a href="advantages.htm">...more</a>
+      </p>
+    </footer>
     </td>
 
     <!-- The Third Column -->
@@ -145,12 +211,20 @@
       <div style="margin-bottom: 20px; border-bottom: black medium solid"> 
         <h1>FEATURED LINK</h1>
         <p>Each month we highlight below one of the links on our
-	  <a href="links.htm">Links Page</a> for your special attention:</p>
-        <p style="text-align: center;">
+	  <a href="links.htm">Links Page</a> for your special attention:
+	</p>
+        <p>
 	  <a href="https://orchestralconcertcds.com/">
-	    <img src="images/OCCDsmall.png" width="200" height="55" border="0" style="margin: auto;"></a></p>
-        <p>Site <a href="https://orchestralconcertcds.com/">Orchestral Concert CDs</a> curates recordings of live orchestral concerts mainly given by Eastern European Orchestras in the 1960s and 1970s made by recording 
-          engineer Geoffrey Terry.</p>
+	    <img  class="centimage"; src="images/OCCDsmall.png"
+		   alt="logo of Orchestral Concert CDs website">
+	  </a>
+	</p>
+        <p>Site
+	  <a href="https://orchestralconcertcds.com/">Orchestral Concert CDs</a>
+	  curates recordings of live orchestral concerts mainly given
+          by Eastern European Orchestras in the 1960s and 1970s made
+          by recording engineer Geoffrey Terry.
+	</p>
         <footer>
 	  21/04/2024
 	</footer>
@@ -159,9 +233,11 @@
       <div>
         <h1>LATEST NEWS</h1>
 	<h2>Engish Music Festival</h2>
-	<p style="text-align: center;>
+	<p>
 	  <a href="https://www.englishmusicfestival.org.uk/2024-may-festival/programme.php#">
-	    <img width="50%" src="images/EMF logo standard (1258x1059px_300dpi).png">
+	    <img class="centimage" src="images/EMF logo standard (1258x1059px_300dpi).png"
+		 alt="logo of the English Music Festival">
+	  </a>
 	</p>
 	<p>This year's English Music Festival will run from 22th to 27th May in
 	  Dorchester on Thames. See the <a href="images/EMF 2024 Festival Programme DL Leaflet (no crops).pdf">programme and booking form</a>, and the <a href="https://www.englishmusicfestival.org.uk/2024-may-festival/programme.php#">festival website</a>.</p>
