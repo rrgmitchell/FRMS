@@ -1,0 +1,56 @@
+|                                                | Own Page  |  Latest |
+|------------------------------------------------+-----------+---------|
+| Alnwick RMS                                    |           |    2019 |
+| Barnsley RMS                                   |           |    2024 |
+| Barrow CMS                                     |           |    None |
+| Berlioz Society                                | Y         |    2024 |
+| Blackpool & Fylde RMS                          |           |    2024 |
+| Bristol & West Friends of Welsh National Opera | Y         |    2024 |
+| Cardiff RMS                                    | Y         |    2024 |
+| Carnoustie RMC                                 |           |    2024 |
+| Carshalton & Wallington RMS                    |           |    2024 |
+| City of London Phonograph & Gramophone Society | Y         |    2024 |
+| Comrie & St Fillans Music Circle               | Y         |    2024 |
+| Cromer Society                                 | Y         |    2024 |
+| Eastbourne RMS                                 | Y         |    2024 |
+| Elgar Society                                  | Y         |     n/a |
+| Forest RMS (Highams Park. E4)                  | Y         |    2024 |
+| Great Yarmouth RMC                             | Y         |    2024 |
+| Harrow MC                                      |           |    2024 |
+| Haslemere RMS                                  |           |    2024 |
+| Huddersfield Society                           |           |    2024 |
+| Leicester Music Society                        | Y         |    2024 |
+| Letchworth RMS                                 |           |    2024 |
+| Loughborough RMS                               | Y         |    2024 |
+| Lowestoft RMS                                  |           |    2024 |
+| Nelson                                         | Y         |    2022 |
+| Newcastle (Staffs) RMS                         |           |    2020 |
+| Newcastle upon Tyne RMS                        |           | no prog |
+| Newport (IofW) RMS                             |           |    2024 |
+| Northampton RMS                                |           |    2023 |
+| Norwich Opera Club                             |           |    2023 |
+| Olton Society (Birmingham)                     |           |    2024 |
+| Orpington RMS                                  |           |    2024 |
+| Oswestry RMS                                   | Y         |    2024 |
+| Portslade RMS                                  |           |    2024 |
+| Putney Music                                   | Y         |    2024 |
+| Ramsbottom RMS                                 |           |    2024 |
+| Recorded Vocal Arts Society                    | Y         |    2024 |
+| Ripley CMG (Derbys)                            |           |    2022 |
+| Rochdale GS                                    |           |    2024 |
+| Ruislip GS                                     |           |    2024 |
+| Ryde RMS                                       |           |    2014 |
+| Salisbury MAG                                  | Y         |    2024 |
+| Solihull RMC                                   |           |    2022 |
+| Southampton RMS                                | Y         |    2024 |
+| Stafford Society                               |           |    2019 |
+| Stirling RMS                                   | Y         |    2020 |
+| Wagner Society (Manchester)                    |           |    2024 |
+| Waltham Forest Music Society                   | Y         |    2024 |
+| Weston Super Mare                              |           |    2024 |
+| Wharfedale RMS                                 | link dead |         |
+| Wolverhampton                                  |           |    2023 |
+| Wollaton                                       |           |    2022 |
+| York Society                                   |           |    2024 |
+
+52 societies, 36 up to date.
