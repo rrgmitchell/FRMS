@@ -1,177 +1,131 @@
 <html>
-<!-- #BeginTemplate "/Templates/wsm.dwt" --> 
 <head>
-<!-- #BeginEditable "doctitle" --> 
 <title>Weston Super Mare Music Appreciation Society - Home</title>
-<!-- #EndEditable --> 
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<script language="JavaScript">
-<!--
-function MM_preloadImages() { //v3.0
-  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
-    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
-    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
-}
-
-function MM_findObj(n, d) { //v4.0
-  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
-    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
-  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
-  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
-  if(!x && document.getElementById) x=document.getElementById(n); return x;
-}
-
-function MM_nbGroup(event, grpName) { //v3.0
-  var i,img,nbArr,args=MM_nbGroup.arguments;
-  if (event == "init" && args.length > 2) {
-    if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
-      img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
-      if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
-      nbArr[nbArr.length] = img;
-      for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
-        if (!img.MM_up) img.MM_up = img.src;
-        img.src = img.MM_dn = args[i+1];
-        nbArr[nbArr.length] = img;
-    } }
-  } else if (event == "over") {
-    document.MM_nbOver = nbArr = new Array();
-    for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
-      if (!img.MM_up) img.MM_up = img.src;
-      img.src = (img.MM_dn && args[i+2]) ? args[i+2] : args[i+1];
-      nbArr[nbArr.length] = img;
+<link rel="stylesheet" href="common.css">
+<style>
+  body {font-family: Arial, Helvetica, Verdana, sans-serif;}
+  nav {display: flex;
+       width: fit-content;
+       justify-content: center;
+       background-color: #365f91;
+       margin: 80 auto;
+      }
+  nav a {margin: 0;
+     padding: 5px 20px;
+     color: white;
+     text-decoration: none;
     }
-  } else if (event == "out" ) {
-    for (i=0; i < document.MM_nbOver.length; i++) {
-      img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
-  } else if (event == "down") {
-    if ((nbArr = document[grpName]) != null)
-      for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
-    document[grpName] = nbArr = new Array();
-    for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
-      if (!img.MM_up) img.MM_up = img.src;
-      img.src = img.MM_dn = args[i+1];
-      nbArr[nbArr.length] = img;
-  } }
-}
-//-->
-</script>
+  a:hover {background-color: #5881b3;}
+  #anniversary span {background-color: yellow;font-size: 24px;font-style: italic;
+		font-weight: bold;}
+
+  footer a {font-size: 13px;font-style: italic;font-weight: normal;}
+  footer a:hover {background-color: white;}
+  footer td:first-child {text-align: center;vertical-align: middle;}
+  footer td {color: #000099; font-size: 16px; font-weight: bold;text-align: center}
+  footer span {color: #990000;}
+  footer span #tiny {font-size: 13px; font-weight: normal;}
+</style>
 </head>
-<body bgcolor="#FFFFFF" text="#000000" onLoad="MM_preloadImages('../images/weston%20images/weston_home_down.png','../images/weston%20images/weston_programme_down.png','../images/weston%20images/weston_fees_down.png','../images/weston%20images/weston_contact_down.png','../images/weston%20images/weston_history_down.png')">
-<div align="center"><!-- #BeginEditable "top-banner" --> 
-  <p align="center"><font face="Arial, Helvetica, sans-serif" size="+2"><b><i><br>
-    </i></b></font></p>
-  <p align="center"><font face="Arial, Helvetica, sans-serif" size="+3" color="#FF0000"><img src="../images/weston%20images/weston_top_banner_home.PNG" width="665" height="182"></font></p>
-  <p align="center"><span style="background-color: yellow;"><i><font face="Arial, Helvetica, sans-serif" size="5">
-	  <b>2024 Our 45<sup>th</sup>
-	    Anniversary Year!</b></font></i></span></p>
-  <p align="center">&nbsp;</p>
-  <!-- #EndEditable --><br>
-  <!-- #BeginEditable "top" --><!-- #EndEditable --></div>
-<table border="0" cellpadding="0" cellspacing="0" align="center">
-  <tr> 
-    <td><a href="wsm_home.htm" target="westonMain" onClick="MM_nbGroup('down','group1','home','../images/weston%20images/weston_home_down.png',1)" onMouseOver="MM_nbGroup('over','home','../images/weston%20images/weston_home_down.png','',1)" onMouseOut="MM_nbGroup('out')"><img name="home" src="../images/weston%20images/weston_home.png" border="0" onLoad="" width="151" height="20"></a></td>
-    <td><a href="wsm_programme.htm" target="westonMain" onClick="MM_nbGroup('down','group1','programme','../images/weston%20images/weston_programme_down.png',1)" onMouseOver="MM_nbGroup('over','programme','../images/weston%20images/weston_programme_down.png','',1)" onMouseOut="MM_nbGroup('out')"><img name="programme" src="../images/weston%20images/weston_programme.png" border="0" onLoad="" width="168" height="20"></a></td>
-    <td><a href="wsm_fees.htm" target="westonMain" onClick="MM_nbGroup('down','group1','fees','../images/weston%20images/weston_fees_down.png',1)" onMouseOver="MM_nbGroup('over','fees','../images/weston%20images/weston_fees_down.png','',1)" onMouseOut="MM_nbGroup('out')"><img name="fees" src="../images/weston%20images/weston_fees.png" border="0" onLoad="" width="123" height="20"></a></td>
-    <td><a href="wsm_contact.htm" target="westonMain" onClick="MM_nbGroup('down','group1','contact','../images/weston%20images/weston_contact_down.png',1)" onMouseOver="MM_nbGroup('over','contact','../images/weston%20images/weston_contact_down.png','',1)" onMouseOut="MM_nbGroup('out')"><img name="contact" src="../images/weston%20images/weston_contact.png" border="0" onLoad="" width="134" height="20"></a></td>
-    <td><a href="wsm_history.htm" target="westonMain" onClick="MM_nbGroup('down','group1','history','../images/weston%20images/weston_history_down.png',1)" onMouseOver="MM_nbGroup('over','history','../images/weston%20images/weston_history_down.png','',1)" onMouseOut="MM_nbGroup('out')"><img name="history" src="../images/weston%20images/weston_history.png" border="0" onLoad="" width="148" height="20"></a></td>
-  </tr>
-</table>
-<!-- #BeginEditable "the-middle" --> 
-<p>&nbsp;</p>
+
+<body bgcolor="#FFFFFF" text="#000000">
+  <img class="centre"
+       src="../images/weston%20images/weston_top_banner_home.PNG" width="665" height="182"
+       alt="Top banner image, showing the society name, info about its president Geraint Lewis,
+	    and images of a music staff and loudspeakers">
+  <p align="center" id="anniversary">
+    <span>2024 Our 45<sup>th</sup> Anniversary Year!</span></p>
+<nav>
+  <a class="active">Home</a>
+  <a href="wsm_programme.htm">Programme</a>
+  <a href="wsm_fees.htm">Fees</a>
+  <a href="wsm_contact.htm">Contact</a>
+  <a href="wsm_president.htm">Our President</a>
+  <a href="wsm_history.htm">History</a>
+</nav>
+
 <table width="75%" border="0" align="center">
   <tr> 
-    <td height="634" width="10%" rowspan="2">&nbsp;</td>
+    <td height="600" width="10%" rowspan="2">&nbsp;</td>
     <td height="84" width="81%" valign="top"> 
-      <div align="center"><font size="+2"><i><font face="Arial, Helvetica, sans-serif">Come 
-        and join a friendly group of people with a shared interest in a wide range 
-        of music.</font></i></font></div>
+      <div  class="s5" align="center"><i>Come and join a friendly group of people
+	  with a shared interest in a wide range of music.
+      </i></div>
     </td>
-    <td height="634" width="9%" rowspan="2">&nbsp;</td>
+    <td height="600" width="9%" rowspan="2">&nbsp;</td>
   </tr>
   <style type="text/css">
-  li {list-style: none;} 
-  li::before {
-  content: '\2022';
-  position: relative;
-  max-width: 0;
-  max-height: 0;
-  left: -15px;
-  top: 3; 
-  display: block;
-  color: white;
-  font-size: 20px;}
+    li {list-style: none; margin-bottom: 15px; text-align: left;} 
+    li::before {
+	content: '\2022';
+	position: relative;
+	max-width: 0;
+	max-height: 0;
+	left: -15px;
+	top: 3; 
+	display: block;
+	color: white;
+	font-size: 20px;}
+    ul {color: white;}
+    ul span {color: yellow;
   </style>
   <tr> 
-    <td height="316" width="81%" valign="top" bgcolor="#365f91"> 
-      <ul>
-        <li style="margin-bottom:30px"> <div align="left"><font face="Arial, Helvetica, sans-serif" size="+2" color="#FFFFFF">Afternoon 
-          meetings at: <font color="#FFFF00">Milton Methodist Church, 2 Milton 
-          Hill, Weston-Super-Mare BS22 9RA</font></font><font face="Arial, Helvetica, sans-serif" size="+2" color="#FFFFFF"><br>
-          </font><font face="Arial, Helvetica, sans-serif" size="+2" color="#FFFFFF"> 
+    <td width="81%" valign="top" bgcolor="#365f91"> 
+      <ul class="s5">
+        <li style="margin-bottom:30px; padding: 10px 0 0;"> <div align="left">Afternoon 
+          meetings at: <span>Milton Methodist Church, 2 Milton 
+              Hill, Weston-Super-Mare BS22 9RA</span><br>
           <div align="center"><i>2:15pm for a prompt start at 2:30pm!</i></div>
           <p align="center"><i>(The hall is located behind the main church building.)</i></p>
-          </font> 
         <li> 
-          <div align="left"></div>
+          Professional presentations by guest speakers
         </li>
-        <li style="margin-bottom:15px"> 
-          <div align="left"><font face="Arial, Helvetica, sans-serif" size="+2" color="#FFFFFF">Professional 
-            presentations by guest speakers</font></div>
+        <li> 
+           Talks given by our members
         </li>
-        <li style="margin-bottom:15px"> 
-          <div align="left"><font face="Arial, Helvetica, sans-serif" size="+2" color="#FFFFFF"> 
-            Talks given by our members</font></div>
+        <li> 
+          Listen to an interesting and wide selection of music
         </li>
-        <li style="margin-bottom:15px"> 
-          <div align="left"><font face="Arial, Helvetica, sans-serif" size="+2" color="#FFFFFF">Listen 
-            to an interesting and wide selection of music</font></div>
+        <li> 
+          Tea, coffee &amp; biscuits provided during the interval
         </li>
-        <li style="margin-bottom:15px"> 
-          <div align="left"><font face="Arial, Helvetica, sans-serif" size="+2" color="#FFFFFF">Tea, 
-            coffee &amp; biscuits provided during the interval</font></div>
-        </li>
-        <li style="margin-bottom:15px"> 
-          <div align="left"><font face="Arial, Helvetica, sans-serif" size="+2" color="#FFFFFF">Non-members 
-            (guests) are welcome</font></div>
+        <li> 
+          Non-members (guests) are welcome
         </li>
       </ul>
-      <p style="padding: 1ex"><font face="Arial, Helvetica, sans-serif" size="+1" color="000000"><font color="ffffff">Although 
-        most of our meetings involve recorded music, we occasionally have presentations 
-        which include a &lsquo;live&rsquo; performance.</font></font></p>
+      <p class="s4" style="padding: 1ex; color: white;">Although most of our meetings involve recorded music, we occasionally have presentations which include a &lsquo;live&rsquo; performance.</p>
     </td>
   </tr>
 </table>
+
 <p></p>
-<!-- #EndEditable --> 
 <p><br>
 </p>
-<table cellspacing="0" cellpadding="0" align="Center" width="658">
-  <tr> 
-    <td valign="Middle"> 
-      <p align=Center> <font color="#0000ff"><i><font face="Geneva, Arial, Helvetica, san-serif" size="2" color="#990000"><a href="../index.htm">Return 
-        to...</a></font></i></font><br>
-        &nbsp; &nbsp;<a href="../index.htm"> <img width="151" height="111" align="Middle" src="../images/FRMSlatestsmall.gif" border="0"></a><br>
-        <i><font color="#0000ff"> <a href="../index.htm"><font face="Geneva, Arial, Helvetica, san-serif" size="2" color="#990000">...Home 
-        Page</font></a></font> <a href="../index%20old.htm"><font face="Geneva, Arial, Helvetica, san-serif" size="2" color="#990000">&nbsp;</font></a></i> 
-    </td>
-    <td> 
-      <h1>&nbsp; </h1>
-    </td>
-    <td> 
-      <p align=Center> <b><font face="Geneva, Arial, Helvetica, san-serif" size="3" color="#000099">We 
-        are affiliated to the<br>
-        &nbsp; <font color="#990000">Federation of Recorded&nbsp;Music Societies 
-        &nbsp;&nbsp;</font><br>
-        </font></b><font face="Geneva, Arial, Helvetica, san-serif" size="3" color="#000099"> 
-        <i><font size="2" color="#990000">(President - Julian Lloyd Webber)</font></i></font><b><font face="Geneva, Arial, Helvetica, san-serif" size="3" color="#000099"><br>
-        which has pages on the Web and supports all <br>
-        Societies throughout the UK </font></b> </p>
-    </td>
-  </tr>
-</table>
-<p><br>
-  <i><i><i></i></i></i> </p>
-<p>&nbsp; </p>
+
+<footer>
+  <table cellspacing="0" cellpadding="0" align="Center" width="658">
+    <tr> 
+      <td> 
+	<a href="../index.htm">Return to...<br>
+          <img width="151" height="111" src="../images/FRMSlatestsmall.gif" border="0"
+	        alt="Logo of the Federation of Recorded Music Societies"><br>
+          ...Home Page
+	</a>
+      </td>
+      <td> 
+	<h1>&nbsp; </h1>
+      </td>
+      <td> 
+	We are affiliated to the<br>
+	<span>Federation of Recorded&nbsp;Music Societies<br>
+	  <span id="tiny">(President - Julian Lloyd Webber)</span></span><br>
+	which supports all Societies throughout the UK
+      </td>
+    </tr>
+  </table>
+</footer>
+
 </body>
-<!-- #EndTemplate --> 
+
 </html>

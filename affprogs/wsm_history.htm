@@ -1,200 +1,138 @@
-<html><!-- #BeginTemplate "/Templates/wsm.dwt" -->
+<html>
 <head>
-<!-- #BeginEditable "doctitle" --> 
 <title>Weston Super Mare Music Appreciation Society - History</title>
-<!-- #EndEditable -->
+
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<script language="JavaScript">
-<!--
-function MM_preloadImages() { //v3.0
-  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
-    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
-    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
-}
-
-function MM_findObj(n, d) { //v4.0
-  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
-    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
-  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
-  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
-  if(!x && document.getElementById) x=document.getElementById(n); return x;
-}
-
-function MM_nbGroup(event, grpName) { //v3.0
-  var i,img,nbArr,args=MM_nbGroup.arguments;
-  if (event == "init" && args.length > 2) {
-    if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
-      img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
-      if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
-      nbArr[nbArr.length] = img;
-      for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
-        if (!img.MM_up) img.MM_up = img.src;
-        img.src = img.MM_dn = args[i+1];
-        nbArr[nbArr.length] = img;
-    } }
-  } else if (event == "over") {
-    document.MM_nbOver = nbArr = new Array();
-    for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
-      if (!img.MM_up) img.MM_up = img.src;
-      img.src = (img.MM_dn && args[i+2]) ? args[i+2] : args[i+1];
-      nbArr[nbArr.length] = img;
+<link rel="stylesheet" href="common.css">
+<style>
+  body {font-family: Arial, Helvetica, Verdana, sans-serif;}
+  nav {display: flex;
+       width: fit-content;
+       justify-content: center;
+       background-color: #365f91;
+       margin: 80 auto;
+      }
+  nav a {margin: 0;
+     padding: 5px 20px;
+     color: white;
+     text-decoration: none;
     }
-  } else if (event == "out" ) {
-    for (i=0; i < document.MM_nbOver.length; i++) {
-      img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
-  } else if (event == "down") {
-    if ((nbArr = document[grpName]) != null)
-      for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
-    document[grpName] = nbArr = new Array();
-    for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
-      if (!img.MM_up) img.MM_up = img.src;
-      img.src = img.MM_dn = args[i+1];
-      nbArr[nbArr.length] = img;
-  } }
-}
-//-->
-</script>
+  a:hover {background-color: #5881b3;}
+  #anniversary span {background-color: yellow;font-size: 24px;font-style: italic;
+		font-weight: bold;}
+
+  footer a {font-size: 13px;font-style: italic;font-weight: normal;}
+  footer a:hover {background-color: white;}
+  footer td:first-child {text-align: center;vertical-align: middle;}
+  footer td {color: #000099; font-size: 16px; font-weight: bold;text-align: center}
+  footer span {color: #990000;}
+  footer span #tiny {font-size: 13px; font-weight: normal;}
+  header h1 {font-size: 24px; font-weight: bold; text-align: center; color: red;}
+  header h1 span {color: black;}
+  #welcome { background-color: #365F91;}
+  #welcome p {font-size: 32px; color: white; text-align: center;
+	      font-style: oblique; font-weight: bold;}
+</style>
+
 </head>
 
-<body bgcolor="#FFFFFF" text="#000000" onLoad="MM_preloadImages('../images/weston%20images/weston_home_down.png','../images/weston%20images/weston_programme_down.png','../images/weston%20images/weston_fees_down.png','../images/weston%20images/weston_contact_down.png','../images/weston%20images/weston_history_down.png')">
-<div align="center"><!-- #BeginEditable "top-banner" --> 
-  <div align="center"><font face="Arial, Helvetica, sans-serif" size="+2"><b><font color="#FF0000">Weston-Super-Mare 
-    Music Appreciation Society</font> - History</b></font> </div>
-  <p align="center"></p>
-  <p align="center"></p>
-  <!-- #EndEditable --><br>
-  <!-- #BeginEditable "top" --> 
-  <p><img src="../images/weston%20images/weston_music_logo.png" width="198" height="77"></p>
-  <p>&nbsp;</p>
-  <!-- #EndEditable --></div>
-<table border="0" cellpadding="0" cellspacing="0" align="center">
-  <tr> 
-    <td><a href="wsm_home.htm" target="westonMain" onClick="MM_nbGroup('down','group1','home','../images/weston%20images/weston_home_down.png',1)" onMouseOver="MM_nbGroup('over','home','../images/weston%20images/weston_home_down.png','',1)" onMouseOut="MM_nbGroup('out')"><img name="home" src="../images/weston%20images/weston_home.png" border="0" onLoad="" width="151" height="20"></a></td>
-    <td><a href="wsm_programme.htm" target="westonMain" onClick="MM_nbGroup('down','group1','programme','../images/weston%20images/weston_programme_down.png',1)" onMouseOver="MM_nbGroup('over','programme','../images/weston%20images/weston_programme_down.png','',1)" onMouseOut="MM_nbGroup('out')"><img name="programme" src="../images/weston%20images/weston_programme.png" border="0" onLoad="" width="168" height="20"></a></td>
-    <td><a href="wsm_fees.htm" target="westonMain" onClick="MM_nbGroup('down','group1','fees','../images/weston%20images/weston_fees_down.png',1)" onMouseOver="MM_nbGroup('over','fees','../images/weston%20images/weston_fees_down.png','',1)" onMouseOut="MM_nbGroup('out')"><img name="fees" src="../images/weston%20images/weston_fees.png" border="0" onLoad="" width="123" height="20"></a></td>
-    <td><a href="wsm_contact.htm" target="westonMain" onClick="MM_nbGroup('down','group1','contact','../images/weston%20images/weston_contact_down.png',1)" onMouseOver="MM_nbGroup('over','contact','../images/weston%20images/weston_contact_down.png','',1)" onMouseOut="MM_nbGroup('out')"><img name="contact" src="../images/weston%20images/weston_contact.png" border="0" onLoad="" width="134" height="20"></a></td>
-    <td><a href="wsm_history.htm" target="westonMain" onClick="MM_nbGroup('down','group1','history','../images/weston%20images/weston_history_down.png',1)" onMouseOver="MM_nbGroup('over','history','../images/weston%20images/weston_history_down.png','',1)" onMouseOut="MM_nbGroup('out')"><img name="history" src="../images/weston%20images/weston_history.png" border="0" onLoad="" width="148" height="20"></a></td>
-  </tr>
-</table>
-<!-- #BeginEditable "the-middle" --> 
-<p>&nbsp;</p>
-<table width="75%" border="0" align="center">
-  <tr> 
-    <td height="408" width="10%" rowspan="2">&nbsp;</td>
-    <td height="394" valign="top"> 
-      <div align="center"> 
-        <p align="left"><i><b><font face="Arial, Helvetica, sans-serif" size="+2">How 
-          did it all start? </font></b></i></p>
-        <p align="justify"><font face="Arial, Helvetica, sans-serif" color="000000">The 
-          society was founded in October 1979, under the name 'Weston-Super-Mare 
-          Recorded Music Society', by Arthur Radford and a small group of enthusiasts. 
-          The object of the society was to provide facilities for its members 
-          to enjoy good music reproduced through high quality equipment in amenable 
-          surroundings with ambient conditions more approaching the concert hall, 
-          providing realism generally not possible at home. It was also the desire 
-          of the society to increase members' knowledge and appreciation of music 
-          by arranging lecture programmes by visiting speakers and its own members. 
-          In the early days outside speakers were thought to be too expensive, 
-          but this changed as membership increased. The inaugural meeting of Weston 
-          Recorded Music Society was on 24th October 1979 at St Paul's Church 
-          Hall. Mr Radford, who was well known in the field of sound reproduction, 
-          and who provided equipment for the meeting, was elected President. There 
-          were between 50 and 60 people present, and Dr K.C. Mallen was elected 
-          as chairman, and his brother Dr C.B. Mallen was on the committee.<br>
-          </font></p>
-        <p align="justify"><font face="Arial, Helvetica, sans-serif" color="000000">The 
-          society is affiliated to the <i> Federation of Recorded Music Societies</i>, 
-          which was founded in 1936, and to which we pay capitation, licencing 
-          and insurance fees. Its newsletter was produced twice a year, and edited 
-          by our Chairman Simon Rawlings, who stood down from his role as editor 
-          in late 2023. Our society hosted the FRMS AGM in November 2019 at The 
-          Winter Gardens.</font></p>
-        <p align="justify"><font face="Arial, Helvetica, sans-serif" color="000000">Membership 
-          reached 74 in 1984. Dr W.P. Kelly was chairman from 1985 until his death 
-          in 1997.<br>
-          <br>
-          In autumn 2001 the society moved to. St Jude's Hall at St Peter's Church. 
-          In 2008/9 the name was changed to Weston-Super-Mare Music Appreciation 
-          Society. In September 2022 we moved to our present venue at Milton Methodist 
-          Church. <br>
-          <br>
-          Due to reducing numbers, in spring 2018 it was decided to change the 
-          season and run from March until the end of September to avoid dark nights 
-          and inclement weather. When meetings started again after the Covid pandemic, 
-          members voted to hold meetings in the afternoons. As a result of increasing 
-          membership, we currently meet throughout the year with around sixteen 
-          meetings scheduled from April 2024 until March 2025 (see the <a href="wsm_programme.htm">programme 
-          page</a>).</font><font face="Arial, Helvetica, sans-serif" color="000000"> 
-          Our recent AGM was very well attended with a few guests becoming new 
-          members. However, always room for more!<br>
-          </font></p>
-        <p align="justify">&nbsp;</p>
-      </div>
-    </td>
-    <td height="408" width="9%" rowspan="2">&nbsp;</td>
-  </tr>
-  <tr> 
-    <td height="37" valign="top" bgcolor="#365f91"> 
-      <p align="center"><i><b><font face="Arial, Helvetica, sans-serif" size="+3" color="#FFFFFF">We 
-        are always pleased to welcome new members.</font></b></i></p>
-      <p align="center"><font size="+3"><b><i><font face="Arial, Helvetica, sans-serif" color="#FFFFFF">Come 
-        and join us in our 45<sup>th</sup> Anniversary Year!</font></i></b></font></p>
-      </td>
-  </tr>
-  <tr>
-  	<td height="63"></td>
-  	<td height="63"> 
-      <p>&nbsp;</p><hr>
-      <p align="center"><font face="Arial, Helvetica, sans-serif" size="+1" color="000000"><font size="3">Site 
-        designed </font><font size="3"> by S Rawlings &copy; April 2024 Weston-Super-Mare 
-        Music Appreciation Society. E &amp; OE</font></font></p>
-      <hr>
-    </td>
-	</tr>	
-  <style type="text/css">
-  li {list-style: none;} 
-  li::before {
-  content: '\2022';
-  position: relative;
-  max-width: 0;
-  max-height: 0;
-  left: -15px;
-  top: 3; 
-  display: block;
-  color: white;
-  font-size: 20px;}
-  </style>
-</table>
-<p></p>
-<!-- #EndEditable -->
+<body bgcolor="#FFFFFF" text="#000000">
+<header>
+  <h1>Weston-Super-Mare Music Appreciation Society <span>- History</span></h1>
+  <img class="centre" src="../images/weston%20images/weston_music_logo.png" width="198" height="77"
+       alt="A short musical staff with a treble clef and a few notes, twisting and getting smaller">
+</header>
+
+<nav>
+  <a href="wsm_home.htm">Home</a>
+  <a href="wsm_programme.htm">Programme</a>
+  <a href="wsm_fees.htm">Fees</a>
+  <a href="wsm_contact.htm">Contact</a>
+  <a href="wsm_president.htm">Our President</a>
+  <a class="active">History</a>
+</nav>
+
+<div style="margin: 0 auto; width: 60%; text-align: justify;"> 
+  <p class="s5"><i><b>How did it all start? </b></i></p>
+  <p>The society was founded in October 1979, under the name 'Weston-Super-Mare 
+    Recorded Music Society', by Arthur Radford and a small group of enthusiasts. 
+    The object of the society was to provide facilities for its members 
+    to enjoy good music reproduced through high quality equipment in amenable 
+    surroundings with ambient conditions more approaching the concert hall, 
+    providing realism generally not possible at home. It was also the desire 
+    of the society to increase members' knowledge and appreciation of music 
+    by arranging lecture programmes by visiting speakers and its own members. 
+    In the early days outside speakers were thought to be too expensive, 
+    but this changed as membership increased. The inaugural meeting of Weston 
+    Recorded Music Society was on 24th October 1979 at St Paul's Church 
+    Hall. Mr Radford, who was well known in the field of sound reproduction, 
+    and who provided equipment for the meeting, was elected President. There 
+    were between 50 and 60 people present, and Dr K.C. Mallen was elected 
+    as chairman, and his brother Dr C.B. Mallen was on the committee.<br>
+  </p>
+
+  <p>The society is affiliated to the <i> Federation of Recorded Music Societies</i>, 
+    which was founded in 1936, and to which we pay capitation, licencing 
+    and insurance fees. Its newsletter was produced twice a year, and edited 
+    by our Chairman Simon Rawlings, who stood down from his role as editor 
+    in late 2023. Our society hosted the FRMS AGM in November 2019 at The 
+    Winter Gardens.</p>
+
+  <p>Membership reached 74 in 1984. Dr W.P. Kelly was chairman from 1985 until his death 
+    in 1997.
+
+    <p>In autumn 2001 the society moved to. St Jude's Hall at St Peter's Church. 
+    In 2008/9 the name was changed to Weston-Super-Mare Music Appreciation 
+    Society. In September 2022 we moved to our present venue at Milton Methodist 
+      Church.</p>
+
+    <p>Due to reducing numbers, in spring 2018 it was decided to change the 
+    season and run from March until the end of September to avoid dark nights 
+    and inclement weather. When meetings started again after the Covid pandemic, 
+    members voted to hold meetings in the afternoons. As a result of increasing 
+    membership, we currently meet throughout the year with around sixteen 
+    meetings scheduled from April 2024 until March 2025 (see the <a href="wsm_programme.htm">programme 
+      page</a>). 
+    Our recent AGM was very well attended with a few guests becoming new 
+    members. However, always room for more!<br>
+  </p>
+
+  <div id="welcome">
+    <p>We are always pleased to welcome new members.</p>
+    <p>Come and join us in our 45<sup>th</sup> Anniversary Year!</p>
+  </div>
+
+  <hr>
+  <p class="s3" style="text-align: center;">Site designed by S Rawlings &copy; April 2024 Weston-Super-Mare 
+    Music Appreciation Society. E &amp; OE</p>
+  <hr>
+  <p></p>
+</div>
+
 <p><br>
 </p>
-<table cellspacing="0" cellpadding="0" align="Center" width="658">
-  <tr> 
-    <td valign="Middle"> 
-      <p align=Center> <font color="#0000ff"><i><font face="Geneva, Arial, Helvetica, san-serif" size="2" color="#990000"><a href="../index.htm">Return 
-        to...</a></font></i></font><br>
-        &nbsp; &nbsp;<a href="../index.htm"> <img width="151" height="111" align="Middle" src="../images/FRMSlatestsmall.gif" border="0"></a><br>
-        <i><font color="#0000ff"> <a href="../index.htm"><font face="Geneva, Arial, Helvetica, san-serif" size="2" color="#990000">...Home 
-        Page</font></a></font> <a href="../index%20old.htm"><font face="Geneva, Arial, Helvetica, san-serif" size="2" color="#990000">&nbsp;</font></a></i> 
-    </td>
-    <td> 
-      <h1>&nbsp; </h1>
-    </td>
-    <td> 
-      <p align=Center> <b><font face="Geneva, Arial, Helvetica, san-serif" size="3" color="#000099">We 
-        are affiliated to the<br>
-        &nbsp; <font color="#990000">Federation of Recorded&nbsp;Music Societies 
-        &nbsp;&nbsp;</font><br>
-        </font></b><font face="Geneva, Arial, Helvetica, san-serif" size="3" color="#000099"> 
-        <i><font size="2" color="#990000">(President - Julian Lloyd Webber)</font></i></font><b><font face="Geneva, Arial, Helvetica, san-serif" size="3" color="#000099"><br>
-        which has pages on the Web and supports all <br>
-        Societies throughout the UK </font></b> </p>
-    </td>
-  </tr>
-</table>
-<p><br>
-  <i><i><i></i></i></i> </p>
-<p>&nbsp; </p>
+<footer>
+  <table cellspacing="0" cellpadding="0" align="Center" width="658">
+    <tr> 
+      <td> 
+	<a href="../index.htm">Return to...<br>
+          <img width="151" height="111" src="../images/FRMSlatestsmall.gif" border="0"
+	        alt="Logo of the Federation of Recorded Music Societies"><br>
+          ...Home Page
+	</a>
+      </td>
+      <td> 
+	<h1>&nbsp; </h1>
+      </td>
+      <td> 
+	We are affiliated to the<br>
+	<span>Federation of Recorded&nbsp;Music Societies<br>
+	  <span id="tiny">(President - Julian Lloyd Webber)</span></span><br>
+	which supports all Societies throughout the UK
+      </td>
+    </tr>
+  </table>
+</footer>
+
 </body>
-<!-- #EndTemplate --></html>
+
