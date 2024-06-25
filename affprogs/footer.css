@@ -1,0 +1,5 @@
+  aside p {font-family: Times New Roman, Times, serif; font-size: 16px; font-style: italic;
+	   text-align: left;}
+  footer td:first-child, footer a {font-size: 13px; color: #990000; font-style: oblique;}
+  footer td {font-size: 16px; font-color: black; font-weight: bold; text-align: center;}
+  .red {color: #990000;}
