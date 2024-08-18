@@ -19,3 +19,7 @@
       (insert date)
       )
     ))
+
+;;; For projectile
+(load-file "~/Projects/web/handy.el")
+(harp-set-project "frms/FRMS")
