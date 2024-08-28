@@ -20,6 +20,11 @@
       )
     ))
 
+;; 27-08-2024
+(defun insert-css-link ()
+  (interactive)
+  (insert "<link href=\"common.css\" rel=\"stylesheet\">\n"))
+
 ;;; For projectile
 (load-file "~/Projects/web/handy.el")
 (harp-set-project "frms/FRMS")
