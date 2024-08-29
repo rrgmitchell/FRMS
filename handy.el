@@ -25,6 +25,21 @@
   (interactive)
   (insert "<link href=\"common.css\" rel=\"stylesheet\">\n"))
 
+;;; To insert an apostrophe: C-x 8 ]
+
+;;; Modify today's date to separate fields with / not -
+(advice-add 'today :after
+            (lambda ()
+              (backward-char 8)
+              (delete-char 1)
+              (insert "/")
+              (forward-char 2)
+              (delete-char 1)
+              (insert "/")
+              (forward-char 4)
+              ))
+
+
 ;;; For projectile
 (load-file "~/Projects/web/handy.el")
 (harp-set-project "frms/FRMS")
