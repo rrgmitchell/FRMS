@@ -1,5 +1,5 @@
 ;; Helper functions to insert a new table into cwgs.htm
-;; 12/01/2023 - 04/03/2024
+;; 12/01/2023 - 04/03/2024 - 11/10/2024
 
 (defun insert-td (width colour text)
   (insert "      <td width=\"" width "\"> 
@@ -10,6 +10,7 @@
 "))
 
 (defun insert-row (date title speaker)
+  (interactive)
   (insert "      <tr valign=\"top\" bgcolor=\"#FFFF99\">\n")
   (insert-td "12%" "000099" date)
   (insert-td "52%" "990000" title)
@@ -20,18 +21,21 @@
 (defun insert-table ()
   (interactive)
 
-  (insert-row "2024" "" "")
-  (insert-row "March 8" "My most recent projects" "Mike Purton*")
-  (insert-row "March 22" "Members’ choices" "")
-  (insert-row "April 5" "Chalk and cheese" "John Evans")
-  (insert-row "April 19" "Turning the pages" "Peter Avis*")
-  (insert-row "May 3 " "Transport of delight" "Paul Whittle")
-  (insert-row "May 17" "My 100 best tunes (a few of them)" "John Wagstaff")
-  (insert-row "May 31" "Edvard Grieg" "Robert Matthew Walker*")
-  (insert-row "June 14" "Annual General Meeting" "")
-  (insert-row "June 28" "The piano, but at times only in support" "Tony Mitchell")
-  (insert-row "August 9" "Il lavoro Italiano (the Italian job)" "David Duncan*")
-  (insert-row "August 23" "Daniel Barenboim, complete musician" "Andrew Mitchell*  ")
+  (insert-row "Oct 18" "A comprehensive Liszt" "John Evans")
 
+  (insert-row "Nov 8" "Have microphone will travel" "Christopher Town")
 
+  (insert-row "Nov 15" "Ross Edwards at 80: Spirits Dancing" "Ray Picot* ")
+
+  (insert-row "Nov 29" "Mystery and magic" "Richard Howard*")
+
+  (insert-row "Dec 13" "End of" "year function")
+
+  (insert-row "Jan 10" "In a country garden" "Pauline Pridham")
+
+  (insert-row "Jan 24" "Capital music" "Eric Pridham")
+
+  (insert-row "Feb 7" "Mozart unwrapped" "Tom Shiels")
+
+  (insert-row "Feb 21" "Masters of the Kings/Queens musik" "Barbara Broughton")
   )
