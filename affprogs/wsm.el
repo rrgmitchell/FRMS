@@ -4,13 +4,13 @@
 (defun insert-row (day super month text)
   (interactive)
   (insert "<tr>\n"
-	  "<td width=\"21%\" valign=\"top\"><font face=\"Arial, Helvetica, sans-serif\" color=\"000000\">"
-          day "<sup>" super "</sup> " month "</font></td>\n"
-          "<td colspan=\"2\" valign=\"top\" width=\"79%\" ><font face=\"Arial, Helvetica, sans-serif\" color=\"000000\">"
+	  "<td width=\"21%\" valign=\"top\">"
+          day "<sup>" super "</sup> " month "</td>\n"
+          "<td colspan=\"2\" valign=\"top\" width=\"79%\">"
 	  
 	  text
 
-          "</font></td>\n"
+          "</td>\n"
 	  "</tr>\n"
 	  )
   )
@@ -19,16 +19,15 @@
 
 (defun insert-table ()
   (interactive)
-  (insert-row "10" "th" "April." "AGM. Followed by a selection of short presentations by members.")
-  (insert-row "24" "th" "April." "‘The Land Without Music - The British Musical Renaissance’. Dr David Bednall, Composer, organist, pianist, and Cathedral Choral Director.")
-  (insert-row "8" "th" "May." "‘Images in Sound.’ Michael Bass, Society member.")
-  (insert-row "22" "nd" "May." "‘Guitarmageddon’ Bob Inskip, Member of Chard u3a.")
-  (insert-row "5 " "th" "June." "‘The Short but Creative Life of Samuel Coleridge-Taylor’ Dianne Board, Society member.")
-  (insert-row "19" "th" "June." "‘Beyond the Planets’ Dr Christopher Redwood, Musician and author.")
-  (insert-row "3 " "rd" "July." "‘Summer Days: The Music of Eric Coates’. Prof. John Pickard, Professor of composition at Bristol University.")
-  (insert-row "31" "st" "July." "‘Purcell… England’s gem’ Owen James, Director of musicals.")
-  (insert-row "21" "st" "Aug." "‘Sir Karl Jenkins Fourth Career.’ Jeff Castrey, Society member.")
-  (insert-row "18" "th" "Sept." "‘Where I’m Coming From’ Jude Forth, Friend of the society and regular presenter.")
-  (insert-row "9 " "th" "Oct." "Society Anniversary Celebration with tea and cake! Gregory Steward, tenor, will entertain us.")
-  (insert-row "6 " "th" "Nov." "‘Jazz, Ancient and Modern - Has Jazz Always Existed?’ John Ogborne, Amateur musician.")
-)
+  (insert-row "4" "th" "Dec" "‘Parry & Stanford; \“Marks & Spencer of the British Musical Renaissance\” –
+One Hundred Years after the Death of Sir Charles Villiers Stanford’
+Geraint Lewis, Society President, Welsh composer, lecturer & musicologist")
+  (insert-row "15" "th" "Jan" "‘Members’ Choice’ – An opportunity for members to bring a short piece of music
+of their choice along to be played")
+  (insert-row "12" "th" "Feb" "‘An Old Person’s Guide to the Orchestra’
+Dennis Darling, Vice-Chairman")
+  (insert-row "12" "th" "Mar" "‘Quilter and His Contemporaries’
+Margaret Hopes, Committee member/minutes secretary")
+  (insert-row "9" "th" "April" "2025 ANNUAL GENERAL MEETING")
+
+  )
