@@ -15,19 +15,27 @@
   (insert "      </tr>\n")
   )
 
+(defvar programme-list
+  '(
+    ("January 8" "Composers N - Z" "Gerald Merion")
+    ("February 5" "Boston Pops plus ?" "Ian Heath")
+    ("March 5" "AGM, followed by Committee Choice" "Committee")
+    ("April 2" "Across the Pond" "Roger Hughes")
+    ("May 7" "Chamber Pot Pourri" "Ann Vernau")
+    ("June 4" "All Creatures Great and Small" "Mary Coulthurst")
+    ("July 2" "Vive la France!" "Barry Wilkinson")
+    ("August" "NO  MEETING" )
+    ("September 3" "Pound Notes" "Chris Gordon")
+    ("October 1" "Performers and Performances" "Tom Shiels")
+    ("November 5" "200 Years Ago" "Barry Wilkinson/Roger Hughes")
+    ("December 3" "Members’ Choice" "Gerald Merion")
+    ))
+
+
+
 (defun insert-table ()
   (interactive)
-(insert-row "February 7"	"An Instrumental Alphabet"		"Ian Heath")
-(insert-row "March 6"	"AGM, followed by Committee Choice"	"Committee")
-(insert-row "April 3"	"All Creatures Great and Small"		"Mary Coulthurst")
-(insert-row "May 1"		"Paint it Black"			"Tom Shiels")
-(insert-row "June 5"	"Love Story"				"John Norris")
-(insert-row "July 3"	"Two by Two"				"Roger Hughes")
-(insert-row "August"	"NO  MEETING"				"")
-(insert-row "September 4"	"An Eclectic Selection"			"Chris Gordon")
-(insert-row "October 2"	"Number One"				"Eileen Bostle")
-(insert-row "November 6"	"British Music, Some Familiar, Some not so"	"Barry Wilkinson")
-(insert-row "December 4"	"Members’ Choice"			"Maura Merion")
-
-
+  (dolist (l programme-list)
+    (insert-row (car l) (cadr l) (caddr l))
+    )
   )
