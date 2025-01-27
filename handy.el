@@ -39,9 +39,16 @@
               (forward-char 4)
               ))
 
+;;; 26/01/2025
+
+(defun downcase-tags ()
+  "Convert HTML tag names to lower case"
+  (interactive)
+  (while (re-search-forward "</?\\([[:alpha:]]+\\)>")
+    (replace-match (downcase (match-string 1)) t t nil 1))
+  )
 
 ;;; For projectile
 (load-file "~/Projects/web/handy.el")
 (harp-set-project "frms/FRMS")
-
 
