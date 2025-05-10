@@ -1,7 +1,7 @@
 # Read org table and convert it to HTML table rows
 
-(def inputfile  "/tmp/west-wickham.org")
-(def outputfile "west-wickham-prog.html")
+(def inputfile  "cwgs.org")
+(def outputfile "cwgs-programme.html")
 
 (def f (file/open inputfile))
 (def g (file/open outputfile :w))
