@@ -1,7 +1,8 @@
 # Read org table and convert it to HTML table rows
 
-(def inputfile  "cwgs.org")
-(def outputfile "cwgs-programme.html")
+(def society "northampton")
+(def inputfile  (string society ".org"))
+(def outputfile (string society "programme.html"))
 
 (def f (file/open inputfile))
 (def g (file/open outputfile :w))
@@ -13,10 +14,6 @@
   (each f a
     (set outputline (string outputline "<td>" f "</td>\n")))
   (set outputline (string outputline "</tr>\n"))
-  # (def date (string/trim (1 a)))
-  # (def speaker (string/trim (2 a)))
-  # (def title (string/trim (3 a)))
-  # (def outputline (string "<tr>\n" "<td>" date "</td>\n<td>" speaker "</td>\n<td>" title "</td>\n</tr>\n" ))
   (file/write g outputline)
   )
 
