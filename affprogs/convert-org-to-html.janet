@@ -1,6 +1,6 @@
 # Read org table and convert it to HTML table rows
 
-(def society "northampton")
+(def society "temp")
 (def inputfile  (string society ".org"))
 (def outputfile (string society "programme.html"))
 
