@@ -1,0 +1,53 @@
+{
+  "olton": {
+    "1": {
+      "date": "11 September",
+      "speaker": "Jean Hope",
+      "title": "Listen to the Birds"
+    },
+    
+    "2": {
+      "date": "18 September",
+      "speaker": "Joan Bailey",
+      "title": "Off the Shelf: H&M Mixtures"
+    },
+    
+    "3": {
+      "date": "25 September",
+      "speaker": "Lesley Davies-Bailey",
+      "title": "'C' is for Chopin, Coates, Caccini, Plus"
+    },
+    
+    "4": {
+      "date": "2 October",
+      "speaker": "Lynda Davies-Bailey",
+      "title": "If It's Not Baroque, Don't Fix It"
+    },
+    
+    "5": {
+      "date": "9 October",
+      "speaker": "Sue Maskell",
+      "title": "Stage and Screen: Excerpts from Opera and Ballet"
+    },
+    
+    "6": {
+      "date": "16 October",
+      "speaker": "Jim Burman",
+      "title": "An Intimate Evening"
+    },
+    
+    "7": {
+      "date": "23 October",
+      "speaker": "Bob Keyte",
+      "title": "Austria"
+    },
+    
+    "8": {
+      "date": "30 October",
+      "speaker": "Elaine Spencer",
+      "title": "A Miscellany of British Music"
+    }
+    
+  }
+
+}

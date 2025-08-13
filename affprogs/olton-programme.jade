@@ -1,0 +1,26 @@
+html
+  head
+    style.
+      body {font-family: Georgia, Utopia, Palatino, ‘Palatino Linotype’, serif;
+      background-color: #ccffff;}
+      h1 {color: red; text-align: center; font-size: 24px}
+      table {width: 80%; margin: 0 10% 0 10%;}
+      th {text-align: left;}
+      td, th {padding: 3px;}
+      p {margin-left: auto; margin-right: auto; width: 80%;}
+      img {margin: 0, auto, 0, auto; }
+  body
+    h1 Olton Programme September to December 2025
+    table
+      tr
+        th Date
+        th Speaker
+        th Title
+      for  article in public.affprogs._data.olton
+        tr
+          td= article.date
+          td= article.speaker
+          td= article.title
+    p Details for meetings November-December will be added when available.
+    p
+      img(src="Olton Summer 2025 Programme.jpeg" width="80%")
