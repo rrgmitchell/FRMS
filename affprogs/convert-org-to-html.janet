@@ -2,7 +2,7 @@
 
 (def society "temp")
 (def inputfile  (string society ".org"))
-(def outputfile (string society "programme.html"))
+(def outputfile (string society "-programme.html"))
 
 (def f (file/open inputfile))
 (def g (file/open outputfile :w))
