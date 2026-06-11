@@ -3,12 +3,25 @@
 <head>
 <title>Weston Super Mare Programme</title>
 <meta charset="utf-8">
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <link rel="stylesheet" href="common.css">
+<link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
 <style>
-  body {font-family: Arial, Helvetica, Verdana, sans-serif;}
+  body {font-family: Arial, Helvetica, Verdana, sans-serif;
+        --gradColour: #d8d8d8;
+        background-color: var(--gradColour);
+        }
+  header h1 {
+      font-family: 'Broadway', 'Limelight', serif;
+      font-size: 32px;
+      text-align: center;
+      color: #ff0000;
+  }
+  header span {
+      color: black;
+  }
   nav {display: flex;
-       width: 80%;
+       width: fit-content;
        justify-content: center;
        background-color: #365f91;
        margin: 60px auto;
@@ -16,17 +29,18 @@
   nav a {margin: 0;
      padding: 10px 30px;
      color: white;
+     font-weight: bold;
      text-decoration: none;
     }
-  nav a:hover {background-color: #5881b3;}
+  nav a:hover:not(.active) {background-color: #5881b3;}
   nav a:link, nav a:visited {
       color: #ffffff;
   }
 
   main {display: flex;
         flex-direction: column;
-        width: 80%;
-        justify-content: center;
+        width: 70%;
+        justify-content: left;
         margin: 60px auto;
        }
 
@@ -37,7 +51,7 @@
   }
 
   table.programme {
-            border-spacing: 0 1.5em;
+      border-spacing: 0 1.5em;
   }
   
   table.programme td {
@@ -55,16 +69,12 @@
   footer td {color: #000099; font-size: 16px; font-weight: bold;text-align: center}
   footer span {color: #990000;}
   footer span #tiny {font-size: 13px; font-weight: normal;}
-  header h1 {font-size: 24px; font-weight: bold; text-align: center; color: red;}
-  header h1 span {color: black;}
 </style>
 </head>
 
-<body bgcolor="#FFFFFF" text="#000000">
+<body>
 <header>
-  <h1>Weston-Super-Mare Music Appreciation Society <span>- Programme</span></h1>
-  <img class="centre" src="../images/weston%20images/weston_music_logo.png" width="198" height="77"
-       alt="A short musical staff with a treble clef and a few notes, twisting and getting smaller">
+  <h1>Weston-Super-Mare Music Appreciation Society<br><span> Programme</span></h1>
 </header>
 
 <nav>
@@ -76,49 +86,72 @@
   <a href="wsm_history.htm">History</a>
 </nav>
 
-
 <main>
-  <p><strong>Our continued programme 2025/26</strong></p>
+  <p><strong>Our spring to autumn programme <span class="s5">2026</span>...</strong></p>
   <table class="programme">
     <tr>
-    <tr>
-      <td>12<sup>th</sup> Nov</td>
-      <td>  ‘Written to Please’<br>
-        <strong>Jude Forth</strong>, Friend of the society and regular presenter</td>
+      <td> 29th April</td>
+      <td> ‘What do we mean by Great Music?’<br>
+        <strong> Dr Christopher Redwood</strong>, Musician and author.</td>
     </tr>
     <tr>
-      <td>10<sup>th</sup> Dec.</td>
-      <td>‘An Entertainment for the Festive Season’<br><strong>Maggie Gravett, Margaret Hopes</strong> and <strong>Kevin Joint</strong>, society members.</td>
-    </tr>
-    <tr></tr>
-    <tr>
-      <td colspan="2" align="center" style="vertical-align: middle;" class="s4" ><u>2026</u></td>
+      <td>13th May</td>
+      <td>‘Sullivan’<br>
+        <strong> Dennis Darling</strong>, Society Vice-chairman</td>
     </tr>
     <tr>
-      <td>14<sup>th</sup> Jan.</td>
-      <td>‘Members’ choice’<br><strong> An opportunity to have a <u>short</u> piece of YOUR
-        choice played!</strong> </td>
+      <td>27th May</td>
+      <td>‘Ladies of the Notes’<br>
+        <strong>Bob Inskip</strong>, Chard u3a music group</td>
     </tr>
     <tr>
-      <td>11<sup>th</sup> Feb.</td>
-      <td>‘The Long and the Short of it’<br><strong>John Hickley,</strong> society member.</td>
+      <td>10th June</td>
+      <td>‘Verdi, the Man and His Music’<br>
+        <strong>Andrew Borkovski</strong>, Former lecturer at Bristol University</td>
     </tr>
     <tr>
-      <td>11<sup>th</sup> Mar.</td>
-      <td>‘Groundbreaking; a study of how composers used the “Ground bass” technique’<br>
-        (Purcell, Bach, Brahms and Holst)<br><strong>Dr Martin Firth,</strong> Organist, lecturer, conductor & choir trainer.</td>
+      <td>24th June</td>
+      <td>‘Havergal Brian — 150th Anniversary of His Birth’<br>
+        <strong> Prof. John Pickard</strong>, Professor of composition at Bristol University</td>
     </tr>
     <tr>
-      <td>15<sup>th</sup> April</td>
-      <td><img src="../images/weston images/AGM.png" style="vertical-align: middle;">
-        Which will be followed by a short presentation.</td>
+      <td>8th July</td>
+      <td>‘2LO where it all started! — Remember this?’<br>
+        <strong>Simon Rawlings</strong>, Society Chairman</td>
+    </tr>
+    <tr>
+      <td>22nd July</td>
+      <td>‘Grace Williams; Channel Siren — 120th Anniversary Celebration’<br>
+        <strong>Geraint Lewis</strong>, Society President, composer, lecturer and musicologist</td>
+    </tr>
+    <tr>
+      <td>19th Aug.</td>
+      <td>‘Knock bang congrats a box on a string! — A Eurovision lifelong passion!’<br>
+        <strong>Owen James</strong>, Director of local musicals and retired Head Teacher</td>
+    </tr>
+    <tr>
+      <td>23rd Sept.</td>
+      <td>‘Field, fighting & folk song – influences which inspired British Song Composers
+        in the 20th Century’<br>
+        <strong>Dr David Bednall</strong>, Composer, organist, pianist and Cathedral choral director, and<br>
+        <strong>Olivia McCormick</strong>, Soprano
+      </td>
+    </tr>
+    <tr>
+      <td>21st Oct.</td>
+      <td>‘That sounds like? – Understanding composers’ trademarks’<br>
+        <strong>John Ogborne</strong>, Amateur musician</td>
+    </tr>
+    <tr>
+      <td>18th Nov.</td>
+      <td>‘A Classical Second XI’<br>
+        <strong>David Threasher</strong>, Sub-editor of the Gramophone magazine and musicologist</td>
     </tr>
   </table>
 
-
-  <p align="left"><b><em>The above dates are Wednesdays - 2.15 for a prompt 2.30 start</em></b></p>
-  <p align="left" class="s3"><em>Please note &ndash; Programme dates may be cancelled or content changed due to circumstances beyond our control.<br>
-      The April&ndash;December programme will be published early next year.</em>
+  <p align="left"><b><em>The above dates are Wednesdays — 2.15 for a prompt 2.30 start</em></b></p>
+  <p align="left" class="s3"><em>Please note — Programme dates may be cancelled or content changed due to circumstances beyond our control.<br>
+      The December 2026–April 2027 programme will be published later in the year.</em>
   </p>
   <p align="center"><b>For updates and general information please click on:</b> 
     <a id="contact" href="wsm_contact.htm">Contacts</a></p>
