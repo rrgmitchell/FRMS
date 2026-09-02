@@ -1,4 +1,4 @@
-;;; Useful Emacs Lisp functions
+;;; Useful Emacs Lisp functions  -*- lexical-binding: t; -*-
 
 ;;; 10-07-2024
 (defun update-dreamweaver-date ()
@@ -9,7 +9,8 @@
        (date (format "%02d-%02d-%04d" (nth 3 lst) (nth 4 lst) (nth 5 lst)))
        x y)
     (save-excursion
-      (beginning-of-buffer)
+      ; (beginning-of-buffer)
+      (goto-char (point-min))
       (search-forward (concat "<!-- " "#BeginDate format:Ge1 -->"))
       (setq x (point))
       (search-forward "<")
