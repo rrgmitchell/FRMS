@@ -8,7 +8,8 @@
           day "<sup>" super "</sup> " month "</td>\n"
           "<td>"
 	   title "<br>"
-	  "<strong>" presenter "</strong> " description
+	   "<strong>" presenter "</strong> "
+           "<em>" description "</em>"
 
           "</td>\n"
 	  "</tr>\n"
@@ -16,19 +17,16 @@
   )
 
 
-
 (defun insert-table ()
   (interactive)
-  ;; (insert-row "10" "th" "Dec." "‘An Entertainment for the Festive Season’"
-  ;;             "Maggie Gravett, Margaret Hopes and Kevin Joint," "society members.")
-  (insert-row "14" "th" "Jan."   "‘Members’ choice’ An opportunity to have a <ul>short</ul> piece of YOUR
-                  choice played!" "" "")
-  (insert-row "11" "th" "Feb."  "‘The Long and the Short of it’"
-                  "John Hickley," "society member.")
-  (insert-row "11" "th" "Mar."   "‘Groundbreaking; a study of how composers used the “Ground bass” technique’ 
-                  (Purcell, Bach, Brahms and Holst)"
-                      "Dr Martin Firth," "Organist, lecturer, conductor & choir trainer.")
+  (insert-row "21" "st"  "Oct."  "‘Dvorak’" "George Young,"  "Society Treasurer." )
+  (insert-row "18" "th"  "Nov."  "‘A Classical Second XI’" 
+   "Dr. David Threasher,"  "Sub-editor of the Gramophone magazine and musicologist." )
+  (insert-row "9" "th"  "Dec." "‘Bond and Far Beyond; An afternoon of John Barry’s music for films, tv and the concert Hall’" "Simon Rawlings,"  "Society Chairman." )
 
-
+  (insert-row "20" "th"  "Jan." "‘Members’ Choice’" "" "An opportunity for members (and visitors) to have a short piece of music played." )
+  (insert-row "17" "th"  "Feb." "‘Grace Williams; Channel Siren – 120th Anniversary’" "Geraint Lewis," "Society President, Composer, lecturer and musicologist.")
+  (insert-row "17" "th"  "Mar." "‘Standing on the Shoulders of Giants. What connects the music of Bach, Mendelssohn and Elgar?’" "Dr. Martin Firth"  "Organist, lecturer, conductor & choir trainer." )
+  (insert-row "14" "th"  "April."  "" "Annual General Meeting"  "followed by the usual tea/coffee break and then a short presentation.")
 
   )

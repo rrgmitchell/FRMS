@@ -8,45 +8,115 @@
 <style>
   body {
       font-family: Tahoma, Helvetica, "Noto Sans", Arial, sans-serif;
-      font-weight: bold;
       background-color: #ffffff;
       background-image: url(images/background1.gif);
-  }
-  a:link, a:visited {
-      color: #990000;
-  }
-  h1 {
-      text-align: center;
-      font-size: 18px;
-      font-weight: bold;
-      color: #000099;
-  }
-  table {
-      margin: 0 auto;
-  }
-  td:first-child {
-      font-size: 16px;
-      font-weight: bold;
-      color: #990000;
-      text-align: center;
-      vertical-align: center;
-  }
-  td:nth-child(2) {
-      font-size: 13px;
-      font-weight: bold;
-      color: #000099;
-      vertical-align: top;
-  }
-  footer {
-      text-align: center;
+      color: #222;
+      margin: 0;
+      padding: 2em 0;
   }
 
+  h1 {
+      text-align: center;
+      font-size: 20px;
+      font-weight: bold;
+      color: #000099;
+      margin: 0 0 1.5em;
+  }
+
+  table {
+      width: 81%;
+      max-width: 1000px;
+      margin: 0 auto;
+      border-collapse: collapse;
+      background-color: rgba(255, 255, 255, 0.94);
+      border: 1px solid #999;
+  }
+
+  td {
+      padding: 14px 18px;
+      border-bottom: 1px solid #bbb;
+      line-height: 1.5;
+  }
+
+  tr:last-child td {
+      border-bottom: none;
+  }
+
+  tr:nth-child(even) {
+      background-color: #f5f5f5;
+  }
+
+  td:first-child {
+      width: 30%;
+      font-size: 15px;
+      font-weight: bold;
+      color: #990000;
+      text-align: center;
+      vertical-align: middle;
+      border-right: 1px solid #bbb;
+  }
+
+  td:nth-child(2) {
+      font-size: 14px;
+      font-weight: normal;
+      color: #222;
+      vertical-align: top;
+  }
+
+  a:link,
+  a:visited {
+      color: #990000;
+      text-decoration: none;
+  }
+
+  a:hover,
+  a:focus {
+      color: #660000;
+      text-decoration: underline;
+  }
+
+  td img {
+      max-width: 100%;
+      height: auto;
+  }
+
+  td p:first-child {
+      margin-top: 0;
+  }
+
+  td p:last-child {
+      margin-bottom: 0;
+  }
+
+  footer {
+      margin-top: 1.5em;
+      text-align: center;
+      font-size: 14px;
+  }
 </style>
+
 </head>
 
 <body>
   <h1>FRMS recommends the following links</h1>
-  <table width="81%" border="1" cellspacing="5" cellpadding="5" bordercolor="#000000">
+  <table>
+    <tr> 
+      <td > 
+        <a href="https://williamalwyn.co.uk">William Alwyn Society</a>
+        <br>
+        <br>
+        <div style="background-color: #101010">
+          <a style="background-color: #101010" href="http://www.williamalwyn.co.uk/">
+            <img src="images/william-alwyn.png" height="100px"></a>
+        </div>
+
+      </td>
+      <td>William Alwyn (1905&ndash;1985) was one of our finest composers with a wealth of repertoire 
+        from orchestral to film scores, ensemble to choral.  
+        <p>The site allows you to explore his world and find out more about the man, 
+          his music and some of his other talents such as his love of painting.</p>
+      </td>
+    </tr>
     <tr> 
       <td > 
         <div><a href="http://www.barbirollisociety.co.uk/">Barbirolli Society</a></div>
@@ -125,9 +195,16 @@
     </tr>
     <tr> 
       <td > 
-        <div><a href="http://www.divine-art.co.uk/">Divine Arts Recording Group</a></div>
+        <a href="http://www.divine-art.co.uk/">Divine Arts Records<br>
+          <img src="images/DivineArtLogo_icon.svg">
+        </a>
       </td>
-      <td  >The spirit of music.</td>
+      <td>
+        <p>
+          The Divine Art label was created in 1992 by Stephen Sutton, a commercial and property lawyer with a love of music and a fascination with records (mainly vintage ones!). The organ at his local church was being restored and in order to raise funds, Stephen arranged the making of a cassette.  Stephen was delighted to see this modest recording receive excellent reviews and sell 700 copies.  From then on one thing led to another – and soon the label was in demand for production of high quality recordings of unusual and rare music.
+        </p>
+
+      </td>
     </tr>
     <tr> 
       <td valign="middle" > 
@@ -169,7 +246,7 @@
         <p>At April 2022 the Granville Bantock Society is not to be found on the internet, 
           and so it is doubtful whether it still exists. The cell on the left has 
           been updated to link to what purports to be a new website dedicated to 
-          the composer, 'coming soon'. At the moment, there is only a holding page.</p>
+          the composer, 'coming soon'. In September 2026 the link does not exist.</p>
       </td>
     </tr>
     <tr> 
@@ -552,9 +629,11 @@
     </tr>
     <tr> 
       <td> 
-        <div><a href="http://www.toccataclassics.com.">Toccata Classics</a> </div>
-        <br>
+        <p><a href="http://www.toccataclassics.com.">Toccata Classics
+        <br><br>
         <img src="images/toccataclassics.png" width="50%">
+          </a>
+        </p>
       </td>
 
       <td>The label dedicated to producing recordings of the huge amount of top-notch 
@@ -565,8 +644,11 @@
     </tr>
     <tr> 
       <td > 
-        <div><a href="http://www.u3a.org.uk/">U3A</a><br>
-        <img src="images/u3a_logo-learn-laugh-live-blue.svg" width="30%"></div>
+        <div>
+          <a href="http://www.u3a.org.uk/">U3A<br><br>
+          <img src="images/u3a_logo-learn-laugh-live-blue.svg" width="30%">
+          </a>
+        </div>
       </td>
       <td>U3A ('University of the Third Age') is a UK-wide movement of
       locally-run interest groups that provide a wide range of opportunities for
@@ -579,7 +661,7 @@
     <tr> 
       <td > 
         <p><a href="http://www.rvwsociety.com/">Vaughan Williams Society</a></p>
-        <p><img src="images/RVW_Society_Logo.jpg" width="72" height="70"></p>
+        <p><img src="images/RVW_Society_Logo.jpg" width="122" height="120"></p>
       </td>
       <td > 
         <p>Vaughan Williams is today recognised as a truly international composer of 
@@ -594,16 +676,31 @@
           new members, whether scholar or lay man or woman.</p>
       </td>
     </tr>
-    <tr> 
-      <td style="background-color: #101010"> 
-        <a style="color: light-green" href="http://www.williamalwyn.co.uk/">
-          <img src="images/william-alwyn.png"></a>
+    <tr>
+      <td>
+        <a href="https://volanteopera.wales">Volante Opera Productions</a>
+        <p><a href="https://volanteopera.wales"><img src="images/volante-logo.png"></a></p>
       </td>
-      <td>William Alwyn (1905&ndash;1985) was one of our finest composers with a wealth of repertoire 
-        from orchestral to film scores, ensemble to choral.  
-        <p>The site allows you to explore his world and find out more about the man, 
-          his music and some of his other talents such as his love of painting.</p>
-        <p></p>
+      <td>
+        <p>Volante Opera Productions was founded by Julian Boyce in 1999,
+          originally bringing opera gala performances to Wales and England. They
+          fulfil a valuable role by staging performances in historic buildings and
+          churches, as well as in concert halls and theatres. One of their main aims
+          is to take live music into the community and enable a wider audience to
+          hear varied and exciting repertoire.
+        </p>
+
+        <p>Since 2018 they expanded their work into the world of recording with an aim to
+          release new or previously unrecorded pieces, either commercially in
+          collaboration with Prima Facie or via online videos on YouTube and
+          Facebook.
+        </p>
+
+        <p>Over the last few years Volante have recorded and published on CD Paul Corfield Godfrey's
+          operatic settings of chapters from JRR Tolkien's <em>Silmarilion</em>, <em>Lord of the
+          Rings</em>, and most recently in 2026, <em>The Hobbit</em>.
+        </p>
+
       </td>
     </tr>
     <tr> 
